@@ -22,3 +22,12 @@ print(txt)
 #Escape Character
 txt = "We are the so called \"Vikings\" from the north"
 print(txt)
+
+#Len
+x = "banana"
+print(len(x))
+
+#Question 1
+x = "The best things in life are free"
+if "free" in x :
+    print(True)
