@@ -22,3 +22,5 @@ print(numero)
 thislist = ["Cherrry","Banana", "dracula", "Porter"]
 thislist.sort(reverse=True)
 print(thislist)
+
+f = open("Seventh.py", "x")
