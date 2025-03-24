@@ -12,3 +12,13 @@ for x in Panther:
         print(newlist.append(x))
 
 print(newlist)
+
+#Sort LIst
+numero = [25, 36, 45, 89, 100]
+numero.sort()
+print(numero)
+
+#Sort Descending
+thislist = ["Cherrry","Banana", "dracula", "Porter"]
+thislist.sort(reverse=True)
+print(thislist)
