@@ -23,3 +23,5 @@ while i < len(mytuple):
 #True and 1 are the same values on a set
 thisset = {"apple", "banana", "cherry", True, 1, 2}
 print(thisset)
+
+f = open("newfile.py", "x")
