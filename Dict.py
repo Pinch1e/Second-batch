@@ -32,3 +32,6 @@ myfamily = {
     "year" : 2011
   }
 }
+print(myfamily["child2"]["name"])
+
+f = open("Loop.py", "x")
