@@ -1,6 +1,7 @@
 #IF / ELSE STATEMNENT IN PYTHON
 #a == b Equals
 #a != b Not Equals
+from calendar import weekday
 
 a = 33
 b = 242
@@ -37,3 +38,20 @@ match day:
     print("Saturday")
   case 7:
     print("Sunday")
+
+day = 4
+match day:
+  case 6:
+    print("Today is Saturday")
+  case 7:
+    print("Today is Sunday")
+  case _:
+    print("Looking forward to the Weekend")
+
+#Combine values
+day = 4
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Today is a weekday")
+    case 6 | 7:
+        print("I love weekends!")
