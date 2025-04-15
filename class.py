@@ -12,7 +12,20 @@ class Person:
         self.name = name
         self.age = age
 
+    def myFunc(self):
+            print("Hello my name is " + self.name)
+
 p1 = Person("John", 36)
 
 print(p1.name)
 print(p1.age)
+p1.myFunc()
+
+#To Delte
+del p1
+
+#To Pass
+class Person:
+    pass
+
+f = open("inheritance.py", "x")
