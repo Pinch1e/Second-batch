@@ -34,3 +34,6 @@ class Sabi(Jumbo):
 x = Sabi("Mike", "Male", 2020)
 x.mabo()             # Output: Mike Male
 print(x.grad)        # Output: 2020
+
+f = open("Iterators.py", "x")
+
