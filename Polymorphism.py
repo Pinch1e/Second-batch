@@ -41,3 +41,5 @@ for x in (car2, Canoe1, Plane1):
     print(x.brand)
     print(x.model)
     x.move()
+
+f = open("Scope.py", "x")
