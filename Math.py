@@ -29,3 +29,5 @@ print(y) #Returns 1
 dede = math.pi #Math.pi returns the value of PI
 
 print(dede)
+
+v = open("JSON.py", "x")
