@@ -19,3 +19,6 @@ import re
 txt = "The rain in Spain"
 y = re.split(r"\s", txt)
 print(y)
+
+txt = "Papi no cento"
+x = re.sub("\p","9", txt, )
