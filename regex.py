@@ -1,0 +1,21 @@
+import re #Importing the Regex - Regular Expression
+
+txt = "The rain in Spain"
+
+x = re.search("^The.*Spain$", txt)
+
+if x:
+    print("YES! we have a match")
+else:
+    print("No Match")
+
+#Some other regular expressions are
+#FINDALL - Returns a list containing all matches
+#SEARCH - Returns a match object if there is a match anywhere in the string
+#SPLIT - Returns a list where the string has been split up in each match
+#SUB - Replaces one or many matches with a string
+
+import re
+txt = "The rain in Spain"
+y = re.split(r"\s", txt)
+print(y)
