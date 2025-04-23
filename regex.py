@@ -21,4 +21,10 @@ y = re.split(r"\s", txt)
 print(y)
 
 txt = "Papi no cento"
-x = re.sub("\p","9", txt, )
+x = re.sub("\s","9", txt) #Replacing empty space characters with 9
+print(x)
+
+import re
+td = "The rain in Spain is mad"
+d = re.search("ai", td)
+print(d)
