@@ -15,4 +15,6 @@ prt = [56, 54, 78]
 ort.extend(prt)
 print(ort)
 
-f = open("Sixth.py", "x")
+
+
+new_folder = open("Numpy.py", "x")
